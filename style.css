@@ -1,9 +1,11 @@
-.mynav span{
+.kola{
+    color:black;
     padding:5px;
-    border-radius:5px;
+    border-radius: 5px;
 }
-.mynav span:hover{
+.mynav .kola:hover{
+    color: rgb(251, 251, 251);
     background-image: linear-gradient(red,orange);
-   color: rgb(245, 3, 3);
+   
     font-weight: 400;
 }
