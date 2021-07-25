@@ -1,0 +1,9 @@
+.mynav span{
+    padding:5px;
+    border-radius:5px;
+}
+.mynav span:hover{
+    background-image: linear-gradient(red,orange);
+   color: rgb(245, 3, 3);
+    font-weight: 400;
+}
