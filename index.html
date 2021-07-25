@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/279c3020f0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/fabicon.gif" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -28,20 +29,20 @@
                   </form>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mynav">
                   <li class="nav-item me-3 mynav">
-                    <a class="nav-link active" aria-current="page" href="#"> <span class="kola
+                    <a class="nav-link active" aria-current="page" href="#home"> <span class="kola
                     ">Home</span></a>
                   </li>
                   <li class="nav-item me-3 mynav">
-                    <a class="nav-link active" aria-current="page" href="#"><span class="kola
-                        ">Product</span></a>
+                    <a class="nav-link active" aria-current="page" href="#shoes-container"><span class="kola
+                        ">Shoes</span></a>
                   </li>
                   <li class="nav-item me-3 mynav">
-                    <a class="nav-link active" aria-current="page" href="#"><span class="kola
-                        ">About us</span></a>
+                    <a class="nav-link active" aria-current="page" href="#bag-container"><span class="kola
+                        ">Bags</span></a>
                   </li>
                   <li class="nav-item me-3 mynav">
-                    <a class="nav-link active" aria-current="page" href="#"><span class="kola
-                        ">Contact us</span></a>
+                    <a class="nav-link active" aria-current="page" href="#Subscribe"><span class="kola
+                        ">Subscribe</span></a>
                   </li>
                   </li>
                 </ul> 
@@ -69,7 +70,7 @@
                 </div> <!--end of first first-->
               </div>
               <!-- start of second slide -->
-              <div class="carousel-item" style="background-color: #FEEAE9
+              <div class="carousel-item" id="home"style="background-color: #FEEAE9
               ;"data-bs-interval="1000">
                 <div class="row d-flex align-items-center"style="padding:10px 70px;">
                   <div class="col-md-6 col-lg-7">
@@ -138,57 +139,136 @@
           </div>
         </div>
       </section>
-      <!-- Shoes container -->
-      <section style="background-color: #F4F4F4;;">
-        <div class="container pt-3">
+     
+      <section style="background-color: #F4F4F4;" class="pb-4">
+         <!-- Shoes container -->
+        <div class="container pt-3"id="shoes-container">
           <h1 class="my-5" style="font-size:46px;" >Shoes</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card border shadow-lg rounded-3 h-100">
+            <div class="col col-md-6 col-lg-4">
+              <div>
+                <div class="shoes card border shadow-lg rounded-3 h-100">
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                  <h4 class="card-title">Reebok Dart Men’s Shoes</h4>
                   <p class="card-text">Bring on the lunges. Rack up the reps in these men's training shoes. A soft textile upper flexes and bends with you. The midsole feels lightweight and provides long-lasting cushioning. Contrast side stripes and logo details add style points</p>
                 </div>
-                <div class="card-footer border-0 bg-white text-center">
+                <div class=" text-center pb-3">
                   <h1 style="color: #050505;font-size:40px;
                     ">$1289</h1>
-                  <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  <a href="https://www.reebok.com/us/reebok-dart-tr-2-men-s-training-shoes/FV4121.html" target="_blank">
+                    <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  </a>
                 </div>
               </div>
+              </div>
             </div>
-            <div class="col">
-              <div class="card border shadow-lg rounded-3 h-100">
+            <div class="col col-md-6 col-lg-4">
+              <div class="shoes card border shadow-lg rounded-3 h-100">
                 <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Reebok Pump</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <h4 class="card-title">Reebok Pump</h4>
+                  <p class="card-text">The Reebok Pump is a line of athletic shoes that was first released on November 24, 1989 by Reebok. It was the first shoe to have an internal inflation mechanism that regulated a unique fitting cushion.</p>
                 </div>
-                <div class="card-footer border-0 bg-white text-center">
+                <div class="text-center pb-3">
                   <h1 style="color: #050505;font-size:40px;
                     ">$799</h1>
-                  <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  <a href="https://www.reebok.com/us/pump-shoes" target="_blank">
+                    <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card border shadow-lg rounded-3 h-100">
+            <div class="col col-md-6 col-lg-4">
+              <div class="shoes card border shadow-lg rounded-3 h-100">
                 <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Reebok All Terrain</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <h4 class="card-title">Reebok All Terrain</h4>
+                  <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze running shoes are made to take on the path less paved. Tough-built top to bottom, they’ll splash through puddles and tread up rocky paths with wild abandon.</p>
                 </div>
-                <div class="card-footer border-0 bg-white text-center">
+                <div class="text-center pb-3">
                   <h1 style="color: #050505;font-size:40px;
                     ">$699</h1>
-                  <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  <a href="https://www.reebok.com/us/all-terrain-craze-men-s-running-shoes/DV9367.html" target="_blank">
+                    <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  </a>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bags containers -->
+        <div class="container my-5" id="bag-container">
+          <h1 class="my-5" style="font-size:46px;" >Bags</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col col-md-6 col-lg-4">
+              <div class="bags card rounded-4 shadow-lg h-100">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Ison Backpack</h4>
+                  <p class="card-text">The practical daypack is an ideal companion for urban folk who commute daily to the office or university. The Ison Backpack stays in shape with any filling quantity.</p>
+                </div>
+                <div class="text-center pb-3">
+                  <h1 style="color: #050505;font-size:40px;
+                    ">$1289</h1>
+                  <a href="https://ucon-acrobatics.com/products/ison-backpack-lotus-black" target="_blank">
+                    <button type="button" class="btn" style="background-color:#000000; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4">
+              <div class="bags card rounded-4 shadow-lg  h-100">
+                <img src="images/bags/bag-2.png " class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Biaowang Backpack</h4>
+                  <p class="card-text">  Guangzhou BIAOWANG Bag Factory Co., Ltd. was established in 2000, with the headquarter located in Huadu District, Guangzhou City. It owns 2 production bases, one is located in Shiling, Huadu Disctrict, and the other is located in Hunan Province.</p>
+                </div>
+                <div class="text-center pb-3">
+                  <h1 style="color: #050505;font-size:40px;
+                    ">$799</h1>
+                  <a href="http://biaowangbag.com/" target="_blank">
+                    <button type="button" class="btn" style="background-color:#000000; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4">
+              <div class="bags card rounded-4 shadow-lg  h-100">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Dxyizu WS54 Smart</h4>
+                  <p class="card-text">Brand Dxyizu; Model WS54; Carrying System Arcuate Shoulder Strap; Capacity 18 Litre; Material Polyester Nylon; Style Preppy Style; Type Softback.</p>
+                </div>
+                <div class="text-center pb-3">
+                  <h1 style="color: #050505;font-size:40px;
+                    ">$699</h1>
+                  <a href="https://www.gadstyle.com/item/5110/dxyizu-ws54-usb-backpack/" target="_blank">
+                    <button type="button" class="btn" style="background-color:#000000; color: white;font-size:26px">Buy now <i class="fas fa-arrow-right"></i></button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- subscribe section -->
+     <div class="p-5" id="Subscribe">
+      <section style="height:400px; background-color:#FFF2F1" class="container d-flex justify-content-center align-items-center rounded-3">
+        <div class="">
+          <h2>LET'S STAY IN TOUCH</h2>
+          <p>Get updates on sales specials and more</p>
+          <input class="p-2 border rounded-2" type="email" placeholder="ENTER YOUR MAIL">
+          <button type="button" class="btn" style="background-color:#FF136F; color: white;font-size:20px">Submit</button>
+        </div>
+      </section>
+     </div>
     </main>
+    <footer class="text-center"> 
+      <p><small>©2020 Panda e-Commerce.All rights reseved Shimon,AimN.</small></p>
+    </footer>
     <!-- bootstrap javascript link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

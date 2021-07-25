@@ -9,3 +9,13 @@
    
     font-weight: 400;
 }
+.shoes:hover{
+    background-image: linear-gradient(black,red);
+    color: white;
+    transform:scale(0.985);
+}
+.bags:hover{
+    background-image: linear-gradient(black,orange);
+    color: white;
+    transform:scale(0.985);
+}
