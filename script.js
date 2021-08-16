@@ -12,4 +12,19 @@ document.getElementById('input').addEventListener('keyup',function(event){
     else{
         document.getElementById('submit-btn').setAttribute('disabled',true);
     }
+});
+
+const image = document.getElementsByClassName('card-img-top');
+for(const images of image){
+    images.addEventListener('mouseenter',function(e){
+       e.target.style.transform = 'rotate(20deg)';
+       setTimeout(function() {
+        e.target.style.transform = "rotate(0deg)";
+      }, 400);
+    },false);  
+}
+
+//double click event
+document.getElementById('Subscribe').addEventListener('dblclick',function() {
+    document.getElementById('subscribe-section').style.backgroundColor = 'green';
 })
